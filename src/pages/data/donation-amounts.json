@@ -1,0 +1,38 @@
+{
+    "single": [
+        {
+            "amount": 5.00,
+            "content": "£5"
+        },
+        {
+            "amount": 10.00,
+            "content": "£10"
+        },
+        {
+            "amount": 20.00,
+            "content": "£20"
+        },
+        {
+            "amount": 50.00,
+            "content": "£50"
+        }
+    ],
+    "regular": [
+        {
+            "amount": 10.00,
+            "content": "£10"
+        },
+        {
+            "amount": 20.00,
+            "content": "£20"
+        },
+        {
+            "amount": 30.00,
+            "content": "£30"
+        },
+        {
+            "amount": 50.00,
+            "content": "£50"
+        }
+    ]
+}
