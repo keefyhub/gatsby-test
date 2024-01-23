@@ -2,15 +2,15 @@ import * as React from "react";
 import { useState } from "react";
 import type { HeadFC, PageProps } from "gatsby";
 
-import { Button } from "./components/button";
-import { PaymentLogos } from "./components/payment-logos";
+import { Button } from "../components/button";
+import { PaymentLogos } from "../components/payment-logos";
 
 interface IJSONData {
   amount: Number;
   content: string;
 }
 
-import JSONData from "./data/donation-amounts.json";
+import JSONData from "../data/donation-amounts.json";
 
 const IndexPage: React.FC<PageProps> = ({ location }) => {
   const params = new URLSearchParams(location.search);
