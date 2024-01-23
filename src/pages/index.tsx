@@ -60,7 +60,7 @@ const IndexPage: React.FC<PageProps> = ({ location }) => {
         />
       </div>
       <div className="w-full md:w-6/12">
-        <div className="bg-gray-nurse flex flex-col justify-center gap-4 h-full min-h-screen px-8 py-12 md:gap-8 md:p-24">
+        <div className="bg-gray-nurse flex flex-col justify-center gap-4 h-full px-8 py-12 md:gap-8 md:min-h-screen md:p-24">
           <div className="flex flex-col items-center text-center gap-2">
             <h1 className="max-w-min">Make a donation</h1>
             <p className="text-2xl">Do something amazing</p>
