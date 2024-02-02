@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "./button";
 import { PaymentLogos } from "./payment-logos";
-import { iJSONData } from "../interfaces/json";
+import { tJSONData } from "../types/json";
 
 export const DonationComponent = (props: any) => {
     const handleDonationType = (e: MouseEvent) => {
@@ -57,7 +57,7 @@ export const DonationComponent = (props: any) => {
                     </div>
                     <div className="gap-2 grid-cols-4 grid md:grid-cols-2 xl:grid-cols-4">
                         {props.data.donationType === 'Single' && <>
-                            {props.JSONData.single.map((item: iJSONData, index: number) => {
+                            {props.JSONData.single.map((item: tJSONData, index: number) => {
                                 return <Button
                                     key={index}
                                     content={item.content}
@@ -68,7 +68,7 @@ export const DonationComponent = (props: any) => {
                             })}
                         </>
                         } {props.data.donationType === 'Regular' && <>
-                            {props.JSONData.regular.map((item: iJSONData, index: number) => {
+                            {props.JSONData.regular.map((item: tJSONData, index: number) => {
                                 return <Button
                                     key={index}
                                     content={item.content}

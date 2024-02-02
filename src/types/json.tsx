@@ -1,4 +1,4 @@
-export interface iJSONData {
+export type tJSONData = {
     amount: Number;
     content: string;
 }
